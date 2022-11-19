@@ -21,7 +21,7 @@ eksctl delete nodegroup eksdemo1-ng-public1 --cluster eksdemo1
 
 ```
 eksctl create nodegroup --cluster=eksdemo1 \
-                        --region=us-east-1 \
+                        --region=ap-southeast-2 \
                         --name=eksdemo1-ng-private1 \
                         --node-type=t3.medium \
                         --nodes-min=2 \
