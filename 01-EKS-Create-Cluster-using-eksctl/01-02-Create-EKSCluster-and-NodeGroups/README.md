@@ -70,7 +70,8 @@ eksctl create nodegroup --cluster=eksdemo1 \
                         --external-dns-access \
                         --full-ecr-access \
                         --appmesh-access \
-                        --alb-ingress-access 
+                        --alb-ingress-access \
+                        --node-private-networking                          
 ```
 
 ## Step-05: Verify Cluster & Nodes
