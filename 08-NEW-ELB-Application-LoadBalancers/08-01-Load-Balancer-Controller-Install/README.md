@@ -275,6 +275,15 @@ brew install helm
 # Verify Helm version
 helm version
 ```
+
+#When Error Error: INSTALLATION FAILED: Kubernetes cluster unreachable: exec plugin: invalid apiVersion "client.authentication.k8s.io/v1alpha1"
+#curl -fsSL -o get_helm.sh https://raw.githubusercontent.com/helm/helm/master/scripts/get-helm-3
+#chmod 700 get_helm.sh
+#./get_helm.sh
+#DESIRED_VERSION=v3.8.2 bash get_helm.sh
+
+
+
 ### Step-04-02: Install AWS Load Balancer Controller
 - **Important-Note-1:** If you're deploying the controller to Amazon EC2 nodes that have restricted access to the Amazon EC2 instance metadata service (IMDS), or if you're deploying to Fargate, then add the following flags to the command that you run:
 ```t
